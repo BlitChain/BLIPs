@@ -15,8 +15,8 @@ The BLIP author is responsible for building consensus within the community and d
 ## Abstract
 
 The BLIP process draws heavily from Ethereum's EIP process and Rust's RFC
-process. It pertains primarily to the protocol and APIs of the Blit Hub
-blockchain (Blit, for short), including Tendermint, Blit-SDK, IBC, and other modules.
+process. It pertains primarily to the protocol and APIs of the Blit
+including Blitchain, Blitlang, and BlitJS client libraries.
 Ideas for a change to the Blit protocols or APIs are first vetted in the
 Blit forums and channels, and then formalized as a BLIP, detailing clearly the
 proposed change. The BLIP includes all information necessary to implement the
@@ -35,7 +35,7 @@ As the Blit ecosystem is very new and it is appropriate to start with good pract
 
 Parties involved in the process are you, the champion or *BLIP author*, the *CODEOWNERS*, and the *Blit Core Developers*.
 
-Before you begin writing a formal BLIP, you should vet your idea. Ask the Blit community first if an idea is original to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on [the Blit discussion board](https://github.com/orgs/blitchain/discussions) to do this, but you can also use an [the Issues section of this repository].
+Before you begin writing a formal BLIP, you should vet your idea. Ask the Blit community first if an idea is original to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on [the Blit discussion board](https://github.com/orgs/blitchain/discussions) to do this, but you can also use an [the Issues section of this repository](https://github.com/BlitChain/BLIPs/issues).
 
 Once the idea has been vetted, your next responsibility will be to present (by means of a BLIP) the idea to the reviewers and all interested parties, invite editors, developers, and the community to give feedback on the aforementioned channels. You should try and gauge whether the interest in your BLIP is commensurate with both the work involved in implementing it and how many parties will have to conform to it. For example, the work required for implementing a Core BLIP will be much greater than for an Interface and the BLIP will need sufficient interest from the Blit development teams. Negative community feedback will be taken into consideration and may prevent your BLIP from moving past the Draft stage.
 
