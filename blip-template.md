@@ -27,17 +27,17 @@ A short (~200 word) description of the technical issue being addressed. This sho
 
 ## Motivation
 
-The motivation section should describe the "why" of this BLIP. What problem does it solve? Why should someone want to implement this standard? What benefit does it provide to the Cosmos ecosystem? What use cases does this BLIP address?
+The motivation section should describe the "why" of this BLIP. What problem does it solve? Why should someone want to implement this standard? What benefit does it provide to the Blit ecosystem? What use cases does this BLIP address?
 
 ## Documentation
 
-Explain the proposal as if it was already deployed on the network and you were documenting it for another Cosmos user. That generally means:
+Explain the proposal as if it was already deployed on the network and you were documenting it for another Blit user. That generally means:
 
 - Introducing new named concepts.
 - Explaining the feature largely in terms of examples.
-- Explaining how Cosmos users should think about the feature, and how it should impact the way they use Cosmos. It should explain the impact as concretely as possible.
+- Explaining how Blit users should think about the feature, and how it should impact the way they use Blit. It should explain the impact as concretely as possible.
 - If applicable, provide sample error messages, deprecation warnings, or migration guidance.
-- If applicable, describe the differences between teaching this to existing Cosmos users and new Cosmos users.
+- If applicable, describe the differences between teaching this to existing Blit users and new Blit users.
 
 ## Specification
 
@@ -50,7 +50,7 @@ This is the technical portion of the BLIP. Explain the design in sufficient deta
 The section should return to the examples given in the previous section,
 and explain more fully how the detailed proposal makes those examples work.
 The specification should be detailed enough to allow competing, interoperable
-implementations for any of the Cosmos components (eg. tendermint, tendermint-rs,
+implementations for any of the Blit components (eg. tendermint, tendermint-rs,
 ibc-go, ibc-rs, etc. TODO a link for all these)
 
 ## Drawbacks
