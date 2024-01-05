@@ -43,7 +43,7 @@ Once the idea has been vetted, your next responsibility will be to present (by m
 
 The following is the standardization process for all BLIPs in all tracks:
 
-![BLIP Status Diagram](../website/static/img/BLIP-process.png)
+![BLIP Status Diagram](../assets/img/BLIP-process.png)
 
 **Idea** - An idea that is pre-draft. This is not tracked within the BLIP Repository.
 
