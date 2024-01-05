@@ -2,7 +2,7 @@
 
 BLit Improvement Proposals (BLIPs) describe standards for the Blitchain project, Blitlang specs, and BlitJS clients.
 
-**Before you initiate a pull request**, please read the [BLIP Process](./blips/process.md) document. Ideas should be thoroughly discussed prior to opening a pull request,
+**Before you initiate a pull request**, please read the [BLIP Process](./blips/process.md) document. Ideas should be thoroughly discussed prior to opening a pull request
 in a [GitHub issue in this repository](https://github.com/BlitChain/BLIPs/issues). BLIPs should begin by copying the
 [blip-template](./blip-template.md).
 
@@ -14,3 +14,8 @@ The Blit Improvement Proposals repository exists as a place to share concrete pr
 
 | Number | Title | Author | Type | Status |
 |--------|-------|--------|------|--------|
+
+
+## Acknowledgement
+
+This repo was initially forked from Cosmos' CIPs which was inspired by Ethereum's EIPs, Bitcoins BIPs, and Python PEPs
