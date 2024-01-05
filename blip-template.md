@@ -1,25 +1,25 @@
 ---
-cip: <to be assigned>
-title: <CIP title>
+blip: <to be assigned>
+title: <BLIP title>
 author: <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
 discussions-to: <URL>
 status: Draft
 type: <Standards Track, Meta, or Informational>
 category (only required for Standards Track): <Core, Networking, Interface, or ERC>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-requires (optional): <CIP number(s)>
-replaces (optional): <CIP number(s)>
+requires (optional): <BLIP number(s)>
+replaces (optional): <BLIP number(s)>
 ---
 
-This is the suggested template for new CIPs.
+This is the suggested template for new BLIPs.
 
-Note that an CIP number will be assigned by an editor. When opening a pull request to submit your CIP, please use an abbreviated title in the filename, `cip-draft_title_abbrev.md`.
+Note that an BLIP number will be assigned by an editor. When opening a pull request to submit your BLIP, please use an abbreviated title in the filename, `blip-draft_title_abbrev.md`.
 
 The title should be 44 characters or less.
 
 ## Simple Summary
 
-"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the CIP. Imagine an email subject line, GitHub PR title, or forum post title.
+"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the BLIP. Imagine an email subject line, GitHub PR title, or forum post title.
 
 ## Abstract
 
@@ -27,7 +27,7 @@ A short (~200 word) description of the technical issue being addressed. This sho
 
 ## Motivation
 
-The motivation section should describe the "why" of this CIP. What problem does it solve? Why should someone want to implement this standard? What benefit does it provide to the Cosmos ecosystem? What use cases does this CIP address?
+The motivation section should describe the "why" of this BLIP. What problem does it solve? Why should someone want to implement this standard? What benefit does it provide to the Cosmos ecosystem? What use cases does this BLIP address?
 
 ## Documentation
 
@@ -41,7 +41,7 @@ Explain the proposal as if it was already deployed on the network and you were d
 
 ## Specification
 
-This is the technical portion of the CIP. Explain the design in sufficient detail that:
+This is the technical portion of the BLIP. Explain the design in sufficient detail that:
 
 - Its interaction with other features is clear.
 - It is reasonably clear how the feature would be implemented.
@@ -75,29 +75,29 @@ community had?
 - What lessons can we learn from what others have done?
 - Are there papers to cite with relevant theoretical background?
 
-This section is intended to encourage you as an author to think about the lessons from other networks, provide readers of your CIP with a fuller picture.
+This section is intended to encourage you as an author to think about the lessons from other networks, provide readers of your BLIP with a fuller picture.
 
 ## Unresolved Questions
 
-- What parts of the design do you expect to resolve through the CIP process before this gets approved?
+- What parts of the design do you expect to resolve through the BLIP process before this gets approved?
 - What parts of the design do you expect to resolve through the implementation of this feature before stabilization?
-- What related issues do you consider out of scope for this CIP that could be addressed in the future independently of the solution that comes out of this CIP?
+- What related issues do you consider out of scope for this BLIP that could be addressed in the future independently of the solution that comes out of this BLIP?
 
 ## Backwards Compatibility
 
-All CIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The CIP must explain how the author proposes to deal with these incompatibilities. CIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
+All BLIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The BLIP must explain how the author proposes to deal with these incompatibilities. BLIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
 
 ## Test Cases
 
-Test cases for an implementation are mandatory for CIPs that are affecting consensus changes. Other CIPs can choose to include links to test cases if applicable.
+Test cases for an implementation are mandatory for BLIPs that are affecting consensus changes. Other BLIPs can choose to include links to test cases if applicable.
 
 ## Reference Implementation
 
-An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification.  If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in `../assets/cip-####/`.
+An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification.  If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in `../assets/blip-####/`.
 
 ## Security Considerations
 
-All CIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CIP submissions missing the "Security Considerations" section will be rejected. An CIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
+All BLIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. BLIP submissions missing the "Security Considerations" section will be rejected. An BLIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
 
 ## Future Possibilities
 
@@ -109,7 +109,7 @@ This is also a good place to "dump ideas", if they are out of scope for the RFC 
 
 If you have tried and cannot think of any future possibilities, you may simply state that you cannot think of anything.
 
-Note that having something written down in the future-possibilities section is not a reason to accept the current or a future CIP; such notes should be in the section on motivation or rationale in this or subsequent CIPs. The section merely provides additional information.
+Note that having something written down in the future-possibilities section is not a reason to accept the current or a future BLIP; such notes should be in the section on motivation or rationale in this or subsequent BLIPs. The section merely provides additional information.
 
 ## Copyright
 
