@@ -2,6 +2,5 @@
 sidebar_position: 1
 ---
 
-# Cosmos Improvement Proposals (CIPs)
+# BLit Improvement Proposals (BLIPs)
 
-The Cosmos software powers over 50 independent blockchains, and is used by thousands of developers and users. The Cosmos Improvement Proposals (CIPs) repository exists as a place to standardize interfaces related to clients (wallets & block explorers), modules, and IBC.
