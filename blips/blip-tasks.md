@@ -90,19 +90,18 @@ Task {
 }
 
 PendingTask {
-    - "queue", ("block" or "time"), when, task.gas_price, task.index
-    - "pool", task.gas_price,  ("block" or "time"),  when,  task.index
-    when
+    - "queue", ("block" or "time"), scheduled_on, task.gas_price, task.index
+    - "pool", task.gas_price,  ("block" or "time"),  scheduled_on,  task.index
+    scheduled_on
 }
 
 TaskResult {
   index:
-    - task.index, "success" | "error", ("block" or "time"),  when
+    - task.index, "success" | "error", ("block" or "time"),  executed_on
 
   id: int
   status: "queue", "pool", "success", "error"
   task_index
-  when: int | string
 
   scheduled_on: block height int | timestamp str
   executed_on: block height int | timestamp str
@@ -117,7 +116,7 @@ BlitParams {
   run_pool_gas_limit: int // cumulative gas reserved for run tasks
   remaining_pool_gas_limit: int // remaining tasks in the pool that haven't been run
 
-  // "when" must be between
+  // "scheduled_on" and "executed_on" must be between
   max_blocks_in_the_future
   max_time_in_the_future
 
