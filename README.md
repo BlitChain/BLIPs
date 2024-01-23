@@ -14,6 +14,7 @@ The Blit Improvement Proposals repository exists as a place to share concrete pr
 
 | Number | Title | Author | Type | Status |
 |--------|-------|--------|------|--------|
+|0001|tasks|@sybilsingleton|Standard|Draft|
 
 
 ## Acknowledgement
